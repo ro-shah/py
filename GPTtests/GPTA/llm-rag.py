@@ -7,7 +7,7 @@ from langchain.schema import (
 )
 from datasets import load_dataset
 
-key = "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"
+key = ""
 os.environ[key] = key
 
 chat = ChatOpenAI(

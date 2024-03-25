@@ -12,8 +12,8 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from tqdm.auto import tqdm  # for progress bar
 from langchain.vectorstores import Pinecone
 
-openai_key = "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"
-pinecone_key = "c0ded864-610a-4e06-9ec4-c19622dad458"
+openai_key = ""
+pinecone_key = ""
 
 embed_model = OpenAIEmbeddings(
     openai_api_key = openai_key, 

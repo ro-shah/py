@@ -3,7 +3,7 @@ from langchain.agents import AgentType, initialize_agent
 from langchain.chat_models import ChatOpenAI
 from langchain.tools.yahoo_finance_news import YahooFinanceNewsTool
 
-openai_key = "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"
+openai_key = ""
 os.environ["OPENAI_API_KEY"] = openai_key
 
 llm = ChatOpenAI(temperature=0.0)

@@ -5,9 +5,9 @@ from langchain.utilities import GoogleSearchAPIWrapper
 import os
 from openai import OpenAI
 
-google_api_key = "AIzaSyCxady4-MPUmP2mGS8OTtlQ0VzyxVR-Qcw"
-google_cse_id = "662fb373bc5b6471c"
-openai_key = "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"
+google_api_key = ""
+google_cse_id = ""
+openai_key = ""
 
 os.environ["GOOGLE_CSE_ID"] = google_cse_id
 os.environ["GOOGLE_API_KEY"] = google_api_key
