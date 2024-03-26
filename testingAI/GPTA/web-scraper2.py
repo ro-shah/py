@@ -1,5 +1,3 @@
-from langchain.document_loaders import AsyncChromiumLoader
-from langchain.document_transformers import BeautifulSoupTransformer
 import requests
 from bs4 import BeautifulSoup
 from langchain.tools import Tool
